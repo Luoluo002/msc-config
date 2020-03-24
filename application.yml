@@ -1,0 +1,14 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application: 
+    name: msc-config-yy-dev
+---
+spring:
+  profiles: test
+  application: 
+    name: msc-config-yy-test
